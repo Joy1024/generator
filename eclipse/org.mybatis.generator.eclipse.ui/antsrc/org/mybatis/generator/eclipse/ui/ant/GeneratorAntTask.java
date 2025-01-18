@@ -1,5 +1,5 @@
 /*
- *    Copyright 2006-2022 the original author or authors.
+ *    Copyright 2006-2023 the original author or authors.
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
@@ -40,10 +40,10 @@ import org.mybatis.generator.config.xml.ConfigurationParser;
 import org.mybatis.generator.eclipse.core.callback.EclipseProgressCallback;
 import org.mybatis.generator.eclipse.core.callback.EclipseShellCallback;
 import org.mybatis.generator.eclipse.ui.ant.logging.AntLogFactory;
-import org.mybatis.generator.eclipse.ui.ant.logging.LogException;
 import org.mybatis.generator.exception.InvalidConfigurationException;
 import org.mybatis.generator.exception.XMLParserException;
 import org.mybatis.generator.internal.util.StringUtility;
+import org.mybatis.generator.logging.LogException;
 import org.mybatis.generator.logging.LogFactory;
 
 /**

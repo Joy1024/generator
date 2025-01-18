@@ -1,11 +1,11 @@
 /*
- *    Copyright 2006-2022 the original author or authors.
+ *    Copyright 2006-2023 the original author or authors.
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
  *    You may obtain a copy of the License at
  *
- *       http://www.apache.org/licenses/LICENSE-2.0
+ *       https://www.apache.org/licenses/LICENSE-2.0
  *
  *    Unless required by applicable law or agreed to in writing, software
  *    distributed under the License is distributed on an "AS IS" BASIS,
@@ -40,7 +40,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
-import mbg.test.mb3.generated.dsql.mapper.mbgtest.sub.TranslationMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.jupiter.api.Test;
 import org.mybatis.dynamic.sql.select.CountDSLCompleter;
@@ -54,6 +53,7 @@ import mbg.test.mb3.generated.dsql.mapper.PkfieldsMapper;
 import mbg.test.mb3.generated.dsql.mapper.PkfieldsblobsMapper;
 import mbg.test.mb3.generated.dsql.mapper.PkonlyMapper;
 import mbg.test.mb3.generated.dsql.mapper.mbgtest.IdMapper;
+import mbg.test.mb3.generated.dsql.mapper.mbgtest.sub.TranslationMapper;
 import mbg.test.mb3.generated.dsql.model.AwfulTable;
 import mbg.test.mb3.generated.dsql.model.Fieldsblobs;
 import mbg.test.mb3.generated.dsql.model.Fieldsonly;
@@ -66,7 +66,6 @@ import mbg.test.mb3.generated.dsql.model.mbgtest.sub.Translation;
 
 /**
  * @author Jeff Butler
- *
  */
 public class DynamicSqlTest extends AbstractTest {
 
